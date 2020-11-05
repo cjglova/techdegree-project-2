@@ -1,0 +1,350 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body  {
+  color: #555;  
+  font-family: 'Inter', 'sans-serif';
+}
+
+ul  {
+  padding-left: 0;
+  }
+
+a {
+  color: #555;
+}
+
+img {
+  padding-top: 55px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+p {
+  font-size: 15px;
+  padding-top: 25px;
+  text-align: center;
+}
+
+h3  {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+h2  {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 3px;
+  font-weight: 700;
+}
+
+/* ---- Navigation ---- */
+
+.name {
+  font-size: 25px;
+}
+
+.main-nav {
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.main-nav li  {
+  list-style: none;
+  margin: 7px 0;
+  background-color: rgb(255, 255, 255);
+}
+
+.name a,
+.main-nav a {
+  text-decoration: none;
+  letter-spacing: 1.1px;
+}
+
+.name a,
+.main-nav li a  {
+  display: block;
+  padding: 8px 0;
+}
+
+/* ---- Layout Containers ---- */
+
+.header  {
+  padding-top: 20px;
+  padding-bottom: 50px;
+  background-color: rgb(247, 247, 247);
+}
+
+.container  {
+  width: 90%;
+  margin: auto;
+}
+
+.name-container {
+  text-align: center;
+}
+
+.main-nav-container {
+  text-align: center;
+}
+
+.main-footer  {
+  background-color: rgb(247, 247, 247); 
+  text-align: center;
+}
+
+/* ---- Page Elements ---- */
+
+.profile  {
+  width: 60%;
+}
+
+.header p  {
+  font-size: 18px;
+  padding-top: 25px;
+}
+
+.calculator-paragraph {
+  padding-bottom: 80px;
+}
+
+.contact-header {
+  padding-top: 80px;  
+}
+
+.main-footer p  {
+  color: rgb(62, 62, 62);
+}
+
+.student-name {
+  float: left;
+  font-weight: 900;
+  color: rgb(62, 62, 62);
+}
+
+.main-footer a  {
+  float: right;
+  text-decoration: none;
+}
+
+.bottom-of-page {
+  padding: 25px 0;
+}
+
+.bottom-of-page h3,
+.student-name {
+  padding: 0;
+}
+
+.student-name {
+  line-height: 0.50;
+}
+
+.main-nav-bottom  {
+  display: none;
+}
+
+/* --- Media Queries 768px --- */
+
+
+@media (min-width: 768px) {
+
+  img {
+    width: 95%;
+  }
+  
+  p {
+    font-size: 12px;
+  }
+  
+  h3  {
+    font-size: 15px;
+  }
+  
+  h2  {
+    font-size: 16px;
+  }
+      
+  /* ---- Navigation ---- */
+  
+  .name {
+    font-size: 21px;
+  }
+  
+  .main-nav {
+    font-size: 12px;
+  }
+  
+  .main-nav li  {
+    background-color: rgb(247, 247, 247);
+    display: inline-block;
+    padding-right: 25px;
+  }
+  
+  .main-nav li:last-child {
+    padding-right: 0;
+  }
+  
+  /* ---- Layout Containers ---- */
+  
+  .container-portfolio  {
+    float:left;
+    width: 50%;
+    padding-right: 2px;
+  }
+  
+  /* ---- Page Elements ---- */
+  
+  .profile  {
+    width: 25%;
+    float: right;
+    margin-right: 15px;
+  }
+  
+  .header p  {
+    padding-top: 55px;
+    float: left;
+    width: 60%;
+    text-align: left;
+  }
+  
+  .student-name {
+    float: left;
+    font-size: 15px;
+  }
+  
+  .main-footer a  {
+    float: right;
+    text-decoration: none;
+  }
+  
+  .top-button {
+    display: none;
+  }
+  
+  .main-nav-bottom  {
+    display: initial;
+    float: right;
+  }
+  
+  .main-nav-bottom li {
+    list-style: none;
+    float: right;
+  }
+  
+  .bottom-of-page,
+  .main-nav-bottom li {
+    padding-top: 0;
+  }
+  
+  .main-nav-bottom a  {
+    text-decoration: none;
+    letter-spacing: 1.1px;
+    padding-right: 10px;
+    font-size: 15px;
+  }
+  
+  .bottom-of-page {
+    padding: 25px 0;
+  }
+  
+  .bottom-of-page h3,
+  .student-name {
+    padding: 0;
+  }
+  
+  .student-name {
+    line-height: 0.50;
+  }
+}
+
+/* --- Media Queries 1024px --- */
+
+@media (min-width: 1024px) {
+    
+  p {
+    font-size: 14px;
+  }
+  
+  h3  {
+    font-size: 15px;
+  }
+  
+  h2  {
+    font-size: 16px;
+  }
+      
+  /* ---- Navigation ---- */
+   
+  .name {
+    font-size: 21px;
+    float: left;
+  }
+  
+  .main-nav {
+    font-size: 15px;
+    float: right;
+  }
+  
+  /* ---- Layout Containers ---- */
+  
+  .name-container {
+    display: inline-block;
+    width: 27%;
+  }
+  
+  .main-nav-container {
+    display: inline-block;
+    width: 70%;
+  }
+  
+  .container-portfolio  {
+    width: 33.33%;
+  }
+  
+  /* ---- Page Elements ---- */
+  
+  .profile  {
+    width: 25%;
+    margin-right: 15px;
+  }
+  
+  .header p  {
+    text-align: left;
+  }
+  
+  .student-name {
+    float: left;
+    font-size: 15px;
+  }
+  
+  .main-footer a  {
+    float: right;
+    text-decoration: none;
+  }
+  
+  .top-button {
+    display: none;
+  }
+  
+  .main-nav-bottom  {
+    display: initial;
+    float: right;
+  }
+
+}
+
+/* ---- Float clearfix ---- */
+
+.clearfix::after {
+  content: " ";
+  display: table;
+  clear: both;
+}
